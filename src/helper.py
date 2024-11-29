@@ -1,11 +1,7 @@
 import os
-from langchain.document_loaders import PyPDFLoader, DirectoryLoader
+from langchain_community.document_loaders import PyPDFLoader, DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings import HuggingFaceEmbeddings
-from dotenv import load_dotenv
-from pinecone.grpc import PineconeGRPC as Pinecone
-from pinecone import ServerlessSpec
-from langchain.vectorstores import Pinecone
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_openai import OpenAI
 from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
