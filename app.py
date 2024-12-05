@@ -55,4 +55,5 @@ def chat():
     return str(response["answer"])
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080)
+    port = int(os.getenv("PORT", 8080))  # Default to 8080 for local testing
+    app.run(host="0.0.0.0", port=port)
