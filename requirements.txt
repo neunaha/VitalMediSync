@@ -1,11 +1,124 @@
-sentence-transformers==2.2.2
-langchain
-flask
-pypdf
-python-dotenv
-pinecone[grpc]
-langchain-pinecone
-langchain_community
-langchain_openai
-langchain_experimental
--e .
+aiohappyeyeballs==2.4.3
+aiohttp==3.11.8
+aiosignal==1.3.1
+annotated-types==0.7.0
+anyio==4.6.2.post1
+appnope @ file:///home/conda/feedstock_root/build_artifacts/appnope_1707233003401/work
+asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_1698341106958/work
+async-timeout==4.0.3
+attrs==24.2.0
+blinker==1.9.0
+certifi==2024.8.30
+charset-normalizer==3.4.0
+click==8.1.7
+comm @ file:///home/conda/feedstock_root/build_artifacts/comm_1710320294760/work
+dataclasses-json==0.6.7
+debugpy @ file:///Users/runner/miniforge3/conda-bld/debugpy_1732236747350/work
+decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1641555617451/work
+distro==1.9.0
+exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1720869315914/work
+executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1725214404607/work
+filelock==3.16.1
+Flask==3.1.0
+frozenlist==1.5.0
+fsspec==2024.10.0
+googleapis-common-protos==1.66.0
+greenlet==3.1.1
+grpcio==1.68.0
+h11==0.14.0
+httpcore==1.0.7
+httpx==0.27.2
+httpx-sse==0.4.0
+huggingface-hub==0.26.3
+idna==3.10
+importlib_metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1726082825846/work
+ipykernel @ file:///Users/runner/miniforge3/conda-bld/ipykernel_1719845458456/work
+ipython @ file:///home/conda/feedstock_root/build_artifacts/ipython_1729866374957/work
+itsdangerous==2.2.0
+jedi @ file:///home/conda/feedstock_root/build_artifacts/jedi_1731317204262/work
+Jinja2==3.1.4
+jiter==0.8.0
+joblib==1.4.2
+jsonpatch==1.33
+jsonpointer==3.0.0
+jupyter_client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1726610684920/work
+jupyter_core @ file:///home/conda/feedstock_root/build_artifacts/jupyter_core_1727163409502/work
+langchain==0.3.9
+langchain-community==0.3.8
+langchain-core==0.3.21
+langchain-experimental==0.3.3
+langchain-openai==0.2.10
+langchain-pinecone==0.0.1
+langchain-text-splitters==0.3.2
+langsmith==0.1.147
+lz4==4.3.3
+MarkupSafe==3.0.2
+marshmallow==3.23.1
+matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1713250518406/work
+mpmath==1.3.0
+multidict==6.1.0
+mypy-extensions==1.0.0
+nest_asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1705850609492/work
+networkx==3.4.2
+nltk==3.9.1
+numpy==1.26.4
+openai==1.55.2
+orjson==3.10.12
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1731802491770/work
+parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1712320355065/work
+pexpect @ file:///home/conda/feedstock_root/build_artifacts/pexpect_1706113125309/work
+pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+pillow==11.0.0
+pinecone==5.4.1
+pinecone-client==3.2.2
+pinecone-plugin-inference==3.0.0
+pinecone-plugin-interface==0.0.7
+platformdirs @ file:///home/conda/feedstock_root/build_artifacts/platformdirs_1726613481435/work
+prompt_toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1727341649933/work
+propcache==0.2.0
+protobuf==4.25.5
+protoc-gen-openapiv2==0.0.1
+psutil @ file:///Users/runner/miniforge3/conda-bld/psutil_1729847140496/work
+ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1609419310487/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+pure_eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1721585709575/work
+pydantic==2.10.2
+pydantic-settings==2.6.1
+pydantic_core==2.27.1
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1714846767233/work
+pypdf==5.1.0
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1731919281354/work
+python-dotenv==1.0.1
+PyYAML==6.0.2
+pyzmq @ file:///Users/runner/miniforge3/conda-bld/pyzmq_1728642283818/work
+regex==2024.11.6
+requests==2.32.3
+requests-toolbelt==1.0.0
+safetensors==0.4.5
+scikit-learn==1.5.2
+scipy==1.14.1
+sentence-transformers==3.3.1
+sentencepiece==0.2.0
+simsimd==3.9.0
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+sniffio==1.3.1
+SQLAlchemy==2.0.35
+stack-data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1669632077133/work
+sympy==1.13.3
+tenacity==9.0.0
+threadpoolctl==3.5.0
+tiktoken==0.8.0
+tokenizers==0.20.3
+torch==2.2.2
+torchvision==0.17.2
+tornado @ file:///Users/runner/miniforge3/conda-bld/tornado_1732615905714/work
+tqdm==4.67.1
+traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1713535121073/work
+transformers==4.46.3
+typing-inspect==0.9.0
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1717802530399/work
+urllib3==2.2.3
+-e git+https://github.com/neunaha/VitalMediSync.git@33a2bd8eda169671217bcbc76d4250973f3d62b6#egg=VitalMediSync
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1704731205417/work
+Werkzeug==3.1.3
+yarl==1.18.0
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1732827521216/work
